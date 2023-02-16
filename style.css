@@ -1,0 +1,235 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-image: linear-gradient(
+    to right top,
+    #7290bd,
+    #2fa3c7,
+    #00b3b2,
+    #50bc86,
+    #9ebd57
+  );
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.JLPT {
+  width: 200px;
+  margin: 40px;
+  padding: 10px;
+  font-size: 25px;
+  border: 2px solid black;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.btn {
+  margin-top: 50px;
+  margin-left: 30px;
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.text-btn {
+  margin-top: 50px;
+  margin-left: 30px;
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.spa {
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.learnbtn {
+  font-size: 25px;
+  border: 3px solid black;
+  border-radius: 12px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
+
+.container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 350px;
+  margin-top: 200px;
+}
+
+.kanji {
+  background-image: linear-gradient(
+    to right top,
+    #d7e18c,
+    #dfc365,
+    #e8a24b,
+    #ee7d42,
+    #ee514a
+  );
+  height: 300px;
+  width: 400px;
+  text-align: center;
+  border-radius: 12px;
+  border: 2px solid black;
+}
+
+#kanji {
+  text-align: center;
+  margin-top: 80px;
+  font-size: 100px;
+}
+
+#kanjicheck {
+  text-align: center;
+  margin-top: 80px;
+  font-size: 100px;
+}
+
+#meaning {
+  text-align: center;
+  margin-top: 80px;
+  font-size: 30px;
+  padding: 10px;
+}
+
+#emeaning {
+  margin-top: -40px;
+  margin: 5px;
+}
+
+#meaningcheck {
+  text-align: center;
+  margin-top: 80px;
+  font-size: 30px;
+  padding: 10px;
+}
+
+#emeaningcheck {
+  margin-top: -40px;
+  margin: 5px;
+}
+
+.kanji h1 {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 20px;
+}
+
+.meaning {
+  background-image: linear-gradient(
+    to right top,
+    #d7e18c,
+    #dfc365,
+    #e8a24b,
+    #ee7d42,
+    #ee514a
+  );
+  height: 300px;
+  width: 400px;
+  text-align: center;
+  border-radius: 12px;
+  border: 2px solid black;
+}
+
+.meaning-exam {
+  background-image: linear-gradient(
+    to right top,
+    #d7e18c,
+    #dfc365,
+    #e8a24b,
+    #ee7d42,
+    #ee514a
+  );
+  height: 300px;
+  width: 400px;
+  text-align: center;
+  border-radius: 12px;
+  border: 2px solid black;
+}
+
+.meaning h1 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.hidden {
+  display: none;
+}
+
+.nextpreviousbtn {
+  text-align: center;
+  margin: 40px;
+  padding: 20px;
+}
+
+.next {
+  padding: 10px;
+  width: 70px;
+  border: 2px solid black;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.Previous {
+  padding: 10px;
+  width: 70px;
+  border: 2px solid black;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.random {
+  padding: 10px;
+  width: 70px;
+  border: 2px solid black;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.random1 {
+  padding: 10px;
+  width: 150px;
+  border: 2px solid black;
+  border-radius: 12px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.back button {
+  margin-top: 20px;
+  margin-left: 50px;
+  padding: 10px;
+  width: 90px;
+  border: 2px solid black;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.back-test button {
+  margin-top: 20px;
+  margin-left: 50px;
+  padding: 10px;
+  width: 90px;
+  border: 2px solid black;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.result {
+  margin: 15px;
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 14px;
+  padding: 10px;
+  width: 70px;
+  border: 2px solid black;
+  border-radius: 12px;
+  font-size: 20px;
+  width: 90px;
+  cursor: pointer;
+}
